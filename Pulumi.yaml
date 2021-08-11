@@ -1,0 +1,6 @@
+name: vm-multiple-disks
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Launch a VM with multiple data disks
