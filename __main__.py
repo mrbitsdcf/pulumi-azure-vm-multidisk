@@ -76,7 +76,9 @@ network_iface = network.NetworkInterface(
 )
 
 username = 'ubuntu'
-password = 'Mt4cbwu'
+# Changing to the default password according with the documentation
+# https://www.youtube.com/watch?v=0Jx8Eay5fWQ
+password = 'god'
 
 vm = compute.VirtualMachine(
     vm_name,
